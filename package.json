@@ -1,0 +1,23 @@
+{
+  "name": "corecast",
+  "version": "0.1.0",
+  "description": "The CoREcast website",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinghamtonCoRE/corecast.git"
+  },
+  "author": "The CoREcast Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinghamtonCoRE/corecast/issues"
+  },
+  "homepage": "https://github.com/BinghamtonCoRE/corecast#readme"
+}

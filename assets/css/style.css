@@ -1,0 +1,63 @@
+/*================
+ * Splash Text
+==================*/
+
+h1#mainText, div#viewSeason {
+    text-align: center;
+}
+
+h1#mainText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    color: #fff;
+}
+
+div#splashText {
+    width: 650px;
+    height: 234px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*================================
+ * Full Page Background Video
+==================================*/
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background-color: #000;
+}
+
+.fullscreen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%)!important;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: auto;
+    height: 100%;
+  }
+}
