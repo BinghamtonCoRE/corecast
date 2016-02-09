@@ -1,3 +1,7 @@
+/*===================
+ * General Styles
+=====================*/
+    
 /*================
  * Splash Text
 ==================*/
@@ -36,7 +40,6 @@ div#splashText {
     left: 0;
     overflow: hidden;
     z-index: -100;
-    background-color: #000;
 }
 
 .fullscreen-video {
@@ -45,19 +48,28 @@ div#splashText {
     left: 0;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%)!important;
 }
 
 @media (min-aspect-ratio: 16/9) {
-  .fullscreen-video {
-    width: 100%;
-    height: auto;
-  }
+    .fullscreen-video {
+        height: 300%;
+        top: -100%;
+    }
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .fullscreen-video {
-    width: auto;
-    height: 100%;
-  }
+    .fullscreen-video {
+        width: 300%;
+        left: -100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../img/bg.png') center center / cover no-repeat;
+    }
+
+    .fullscreen-video {
+        display: none;
+    }
 }
