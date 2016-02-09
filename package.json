@@ -4,6 +4,7 @@
   "description": "The CoREcast website",
   "main": "index.js",
   "dependencies": {
+    "gulp": "^3.9.1",
     "semantic-ui": "^2.1.8"
   },
   "devDependencies": {},
